@@ -43,7 +43,21 @@ pip install -r requirements.txt
 
 ### 5. Настройте бота
 
-Откройте файл `.env` и заполните его:
+Переименуйте файл `example.env` в `.env`:
+
+**Windows:**
+
+```bash
+copy example.env .env
+```
+
+**Linux/macOS:**
+
+```bash
+cp example.env .env
+```
+
+Откройте файл `.env` в текстовом редакторе и заполните его своими данными:
 
 ```env
 BOT_TOKEN=YOUR_TOKEN
